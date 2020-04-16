@@ -1,5 +1,5 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Issues](https://img.shields.io/github/forks/PPranesh/Simple-Dynamic-Website)](https://github.com/PPranesh/Simple-Dynamic-Website/issues)
+[![Forks](https://img.shields.io/github/forks/PPranesh/Simple-Dynamic-Website)](https://github.com/PPranesh/Simple-Dynamic-Website/issues)
 [![Issues](https://img.shields.io/github/issues/PPranesh/Simple-Dynamic-Website)](https://github.com/PPranesh/Simple-Dynamic-Website/issues)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![Last Commit](https://img.shields.io/github/last-commit/PPranesh/Simple-Dynamic-Website)]()
