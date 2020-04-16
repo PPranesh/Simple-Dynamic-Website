@@ -1,0 +1,11 @@
+<%- include("partials/header.ejs") -%>
+
+<% aboutArray.forEach(function(element) { %>
+
+    <h2> <%= element.title %> </h2>
+
+    <p> <%= element.content %> </p>
+
+<% }); %>
+
+<%- include("partials/footer.ejs") -%>
