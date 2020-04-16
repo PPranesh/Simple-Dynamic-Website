@@ -49,7 +49,7 @@ localhost:3000/compose      // creating new title & description in home-page, ty
 
 ## Thank you
 
-* Thanks to [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) for the teaching me the concept to become a Full Stack Developer.
+**Thanks to [Dr. Angela Yu](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/) for the teaching me the concept to become a Full Stack Developer.**
 
 ### Follow
 
