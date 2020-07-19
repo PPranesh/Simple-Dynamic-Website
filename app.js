@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const _ = require("lodash");
+// const _ = require("lodash");
 
 const app = express();
 
@@ -41,7 +41,8 @@ app.get("/compose", function(req, res){
 app.post("/compose", function(req, res){
 
     const newContent = {
-        title: _.upperFirst(req.body.inputTitle),
+//         title: _.upperFirst(req.body.inputTitle),
+        title: req.body.inputTitle,
         content: req.body.inputContent
     };
     
@@ -52,11 +53,13 @@ app.post("/compose", function(req, res){
 
 app.get("/posts/:postHeading", function(req, res){
 
-    const fromURL = _.lowerCase(req.params.postHeading);
+//     const fromURL = _.lowerCase(req.params.postHeading);
+    const fromURL = req.params.postHeading;
 
     homeArray.forEach(function(element) {
 
-        const toURL = _.lowerCase(element.title);
+//         const toURL = _.lowerCase(element.title);
+        const toURL = element.title;
 
         if ( fromURL === toURL ) {
             res.render("post", {title: element.title, content: element.content });
